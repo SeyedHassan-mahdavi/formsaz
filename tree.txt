@@ -1,0 +1,355 @@
+Folder PATH listing for volume New Volume
+Volume serial number is C100-3AF2
+D:.
++---alembic
+|   +---versions
+|   |   \---__pycache__
+|   \---__pycache__
++---flows
+|   \---__pycache__
++---scripts
+|   \---__pycache__
++---storage
++---venv
+|   +---Include
+|   |   \---site
+|   |       \---python3.12
+|   |           \---greenlet
+|   +---Lib
+|   |   \---site-packages
+|   |       +---aiohappyeyeballs
+|   |       |   \---__pycache__
+|   |       +---aiohappyeyeballs-2.6.1.dist-info
+|   |       +---aiohttp
+|   |       |   +---.hash
+|   |       |   +---_websocket
+|   |       |   |   +---.hash
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---aiohttp-3.12.15.dist-info
+|   |       |   \---licenses
+|   |       |       \---vendor
+|   |       |           \---llhttp
+|   |       +---aiosignal
+|   |       |   \---__pycache__
+|   |       +---aiosignal-1.4.0.dist-info
+|   |       |   \---licenses
+|   |       +---aiosqlite
+|   |       |   +---tests
+|   |       |   \---__pycache__
+|   |       +---aiosqlite-0.21.0.dist-info
+|   |       +---alembic
+|   |       |   +---autogenerate
+|   |       |   |   \---__pycache__
+|   |       |   +---ddl
+|   |       |   |   \---__pycache__
+|   |       |   +---operations
+|   |       |   |   \---__pycache__
+|   |       |   +---runtime
+|   |       |   |   \---__pycache__
+|   |       |   +---script
+|   |       |   |   \---__pycache__
+|   |       |   +---templates
+|   |       |   |   +---async
+|   |       |   |   +---generic
+|   |       |   |   +---multidb
+|   |       |   |   +---pyproject
+|   |       |   |   \---pyproject_async
+|   |       |   +---testing
+|   |       |   |   +---plugin
+|   |       |   |   \---suite
+|   |       |   +---util
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---alembic-1.16.4.dist-info
+|   |       |   \---licenses
+|   |       +---anyio
+|   |       |   +---abc
+|   |       |   |   \---__pycache__
+|   |       |   +---streams
+|   |       |   |   \---__pycache__
+|   |       |   +---_backends
+|   |       |   |   \---__pycache__
+|   |       |   +---_core
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---anyio-4.10.0.dist-info
+|   |       |   \---licenses
+|   |       +---asyncpg
+|   |       |   +---exceptions
+|   |       |   +---pgproto
+|   |       |   |   \---codecs
+|   |       |   +---protocol
+|   |       |   |   +---codecs
+|   |       |   |   \---record
+|   |       |   \---_testbase
+|   |       +---asyncpg-0.29.0.dist-info
+|   |       +---attr
+|   |       |   \---__pycache__
+|   |       +---attrs
+|   |       |   \---__pycache__
+|   |       +---attrs-25.3.0.dist-info
+|   |       |   \---licenses
+|   |       +---certifi
+|   |       |   \---__pycache__
+|   |       +---certifi-2025.8.3.dist-info
+|   |       |   \---licenses
+|   |       +---dotenv
+|   |       |   \---__pycache__
+|   |       +---frozenlist
+|   |       |   \---__pycache__
+|   |       +---frozenlist-1.7.0.dist-info
+|   |       |   \---licenses
+|   |       +---greenlet
+|   |       |   +---platform
+|   |       |   +---tests
+|   |       |   \---__pycache__
+|   |       +---greenlet-3.0.3.dist-info
+|   |       +---h11
+|   |       |   \---__pycache__
+|   |       +---h11-0.16.0.dist-info
+|   |       |   \---licenses
+|   |       +---httpcore
+|   |       |   +---_async
+|   |       |   |   \---__pycache__
+|   |       |   +---_backends
+|   |       |   |   \---__pycache__
+|   |       |   +---_sync
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---httpcore-1.0.9.dist-info
+|   |       |   \---licenses
+|   |       +---httpx
+|   |       |   +---_transports
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---httpx-0.28.1.dist-info
+|   |       |   \---licenses
+|   |       +---idna
+|   |       |   \---__pycache__
+|   |       +---idna-3.10.dist-info
+|   |       +---mako
+|   |       |   +---ext
+|   |       |   |   \---__pycache__
+|   |       |   +---testing
+|   |       |   \---__pycache__
+|   |       +---mako-1.3.10.dist-info
+|   |       |   \---licenses
+|   |       +---markupsafe
+|   |       |   \---__pycache__
+|   |       +---MarkupSafe-3.0.2.dist-info
+|   |       +---multidict
+|   |       |   \---__pycache__
+|   |       +---multidict-6.6.4.dist-info
+|   |       |   \---licenses
+|   |       +---pip
+|   |       |   +---_internal
+|   |       |   |   +---cli
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---commands
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---distributions
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---index
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---locations
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---metadata
+|   |       |   |   |   +---importlib
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---models
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---network
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---operations
+|   |       |   |   |   +---build
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---install
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---req
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---resolution
+|   |       |   |   |   +---legacy
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---resolvelib
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---utils
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---vcs
+|   |       |   |   |   \---__pycache__
+|   |       |   |   \---__pycache__
+|   |       |   +---_vendor
+|   |       |   |   +---cachecontrol
+|   |       |   |   |   +---caches
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---certifi
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---dependency_groups
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---distlib
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---distro
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---idna
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---msgpack
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---packaging
+|   |       |   |   |   +---licenses
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---pkg_resources
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---platformdirs
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---pygments
+|   |       |   |   |   +---filters
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---formatters
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---lexers
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---styles
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---pyproject_hooks
+|   |       |   |   |   +---_in_process
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---requests
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---resolvelib
+|   |       |   |   |   +---resolvers
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---rich
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---tomli
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---tomli_w
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---truststore
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---urllib3
+|   |       |   |   |   +---contrib
+|   |       |   |   |   |   +---_securetransport
+|   |       |   |   |   |   |   \---__pycache__
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---packages
+|   |       |   |   |   |   +---backports
+|   |       |   |   |   |   |   \---__pycache__
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   +---util
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   \---__pycache__
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---pip-25.2.dist-info
+|   |       |   \---licenses
+|   |       |       \---src
+|   |       |           \---pip
+|   |       |               \---_vendor
+|   |       |                   +---cachecontrol
+|   |       |                   +---certifi
+|   |       |                   +---dependency_groups
+|   |       |                   +---distlib
+|   |       |                   +---distro
+|   |       |                   +---idna
+|   |       |                   +---msgpack
+|   |       |                   +---packaging
+|   |       |                   +---pkg_resources
+|   |       |                   +---platformdirs
+|   |       |                   +---pygments
+|   |       |                   +---pyproject_hooks
+|   |       |                   +---requests
+|   |       |                   +---resolvelib
+|   |       |                   +---rich
+|   |       |                   +---tomli
+|   |       |                   +---tomli_w
+|   |       |                   +---truststore
+|   |       |                   \---urllib3
+|   |       +---propcache
+|   |       |   \---__pycache__
+|   |       +---propcache-0.3.2.dist-info
+|   |       |   \---licenses
+|   |       +---python_dotenv-1.0.1.dist-info
+|   |       +---python_telegram_bot-21.6.dist-info
+|   |       |   \---licenses
+|   |       +---sniffio
+|   |       |   +---_tests
+|   |       |   \---__pycache__
+|   |       +---sniffio-1.3.1.dist-info
+|   |       +---sqlalchemy
+|   |       |   +---connectors
+|   |       |   +---cyextension
+|   |       |   |   \---__pycache__
+|   |       |   +---dialects
+|   |       |   |   +---mssql
+|   |       |   |   +---mysql
+|   |       |   |   +---oracle
+|   |       |   |   +---postgresql
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---sqlite
+|   |       |   |   |   \---__pycache__
+|   |       |   |   \---__pycache__
+|   |       |   +---engine
+|   |       |   |   \---__pycache__
+|   |       |   +---event
+|   |       |   |   \---__pycache__
+|   |       |   +---ext
+|   |       |   |   +---asyncio
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---declarative
+|   |       |   |   +---mypy
+|   |       |   |   \---__pycache__
+|   |       |   +---future
+|   |       |   |   \---__pycache__
+|   |       |   +---orm
+|   |       |   |   \---__pycache__
+|   |       |   +---pool
+|   |       |   |   \---__pycache__
+|   |       |   +---sql
+|   |       |   |   \---__pycache__
+|   |       |   +---testing
+|   |       |   |   +---fixtures
+|   |       |   |   +---plugin
+|   |       |   |   \---suite
+|   |       |   +---util
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---SQLAlchemy-2.0.32.dist-info
+|   |       +---telegram
+|   |       |   +---ext
+|   |       |   |   +---_handlers
+|   |       |   |   |   \---__pycache__
+|   |       |   |   +---_utils
+|   |       |   |   |   \---__pycache__
+|   |       |   |   \---__pycache__
+|   |       |   +---request
+|   |       |   |   \---__pycache__
+|   |       |   +---_files
+|   |       |   |   \---__pycache__
+|   |       |   +---_games
+|   |       |   |   \---__pycache__
+|   |       |   +---_inline
+|   |       |   |   \---__pycache__
+|   |       |   +---_passport
+|   |       |   |   \---__pycache__
+|   |       |   +---_payment
+|   |       |   |   \---__pycache__
+|   |       |   +---_utils
+|   |       |   |   \---__pycache__
+|   |       |   \---__pycache__
+|   |       +---typing_extensions-4.14.1.dist-info
+|   |       |   \---licenses
+|   |       +---yarl
+|   |       |   \---__pycache__
+|   |       +---yarl-1.20.1.dist-info
+|   |       |   \---licenses
+|   |       \---__pycache__
+|   \---Scripts
+\---__pycache__
