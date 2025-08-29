@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# SQLite (اگر تست داشتی)
+*.sqlite
+*.db
+
+# Alembic versions (اگر می‌خوای خالی نگه داری و فقط روی سرور بسازی)
+alembic/versions/
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# VSCode / PyCharm configs
+.vscode/
+.idea/
+
+# Cache
+*.pid
+*.gz
+*.zip
+*.tar
+*.tgz
+

@@ -24,8 +24,8 @@ def _sync_url(async_url: str) -> str:
     return re.sub(r'\+asyncpg', '', async_url).replace('aiosqlite', 'pysqlite')
 
 def run_migrations_offline():
-    url = config.get_main_option("sqlalchemy.url")
-    url = _sync_url(url)
+    raw_url = os.getenv("DATABASE_URL") or config.get_main_option("sqlalchemy.url")
+    url = _sync_url(raw_url)
     context.configure(
         url=url,
         target_metadata=target_metadata,
@@ -37,7 +37,8 @@ def run_migrations_offline():
 
 def run_migrations_online():
     ini_section = config.get_section(config.config_ini_section)
-    ini_section["sqlalchemy.url"] = _sync_url(ini_section["sqlalchemy.url"])
+    raw_url = os.getenv("DATABASE_URL") or ini_section["sqlalchemy.url"]
+    ini_section["sqlalchemy.url"] = _sync_url(raw_url)
     connectable = engine_from_config(
         ini_section, prefix="sqlalchemy.", poolclass=pool.NullPool
     )
