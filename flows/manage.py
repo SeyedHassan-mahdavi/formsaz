@@ -579,18 +579,20 @@ def _fa_platform_dir(platform: str) -> str:
 
 
 async def export_zip(campaign_id: int) -> Optional[str]:
-    base = DATA_DIR / f"campaign_{campaign_id}"
-    if not base.exists():
+    bases = [p for p in DATA_DIR.glob(f"*/c{campaign_id}") if p.is_dir()]
+    if not bases:
         return None
 
     files = []
-    for file in base.rglob("*"):
-        if file.is_file():
+    for base in bases:
+        for file in base.rglob("*"):
+            if not file.is_file():
+                continue
             rel = file.relative_to(base)
-            parts = rel.parts
-            if len(parts) >= 3 and str(parts[1]).startswith("user_"):
+            parts = rel.parts  # [platform, u{unit_id}, filename, ...]
+            if len(parts) >= 3 and parts[1].startswith("u"):
                 platform = parts[0]
-                uid = parts[1].split("_", 1)[1]
+                uid = parts[1][1:]  # حذف 'u'
                 files.append((str(file), platform, uid))
             else:
                 files.append((str(file), "unknown", "unknown"))
@@ -598,16 +600,14 @@ async def export_zip(campaign_id: int) -> Optional[str]:
     if not files:
         return None
 
-    zip_name = DATA_DIR / f"campaign_{campaign_id}_export.zip"
+    zip_name = DATA_DIR / f"c{campaign_id}_export.zip"
     if zip_name.exists():
         zip_name.unlink()
 
     with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zf:
         for file_path, platform, uid in files:
             filename = os.path.basename(file_path)
-            # 👇 پوشهٔ پلتفرم فارسی
-            plat_dir = _fa_platform_dir(platform)
-            # ساخت مسیر داخل زیپ (پوشهٔ پلتفرم فارسی / سپس فایل)
+            plat_dir = _fa_platform_dir(platform)  # پوشهٔ فارسیِ پلتفرم
             arcname = f"{plat_dir}/{uid}__{filename}"
             zf.write(file_path, arcname=arcname)
 
